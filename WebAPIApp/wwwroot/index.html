@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Film Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+
+
+</head>
+<body>
+    <div class="wrap">
+        <h1>Film Search</h1>
+        <div class="search-row">
+            <input type="text" id="filmQuery" placeholder="Name of the film" />
+            <button onclick="searchFilm()">Find</button>
+        </div>
+        <div class="country-search-row">
+            <input type="text" id="countryQuery" placeholder="Name of the country" />
+            <button onclick="searchCountry()">Find</button>
+        </div>
+        <div class="id-search-row">
+            <input type="text" id="idQuery" placeholder="Id" />
+            <button onclick="searchId()">Find</button>
+        </div>
+        <div class="actor-search-row">
+            <input type="text" id="actorQuery" placeholder="Actor" />
+            <button onclick="searchActor()">Find</button>
+        </div>
+        <div id="results"></div>
+    </div>
+
+    <h2>Popular Movies</h2>
+    <div id="popular"></div>
+
+</body>
+</html>

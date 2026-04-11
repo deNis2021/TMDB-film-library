@@ -1,0 +1,91 @@
+[
+  {
+    "ContainingType": "WebAPIApp.Controllers.FilmController",
+    "Method": "GetByActor",
+    "RelativePath": "Film/Actor/{Actor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Actor",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetMoviesByActor"
+  },
+  {
+    "ContainingType": "WebAPIApp.Controllers.FilmController",
+    "Method": "GetByCountry",
+    "RelativePath": "Film/country/{country}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "country",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetMoviesByCountry"
+  },
+  {
+    "ContainingType": "WebAPIApp.Controllers.FilmController",
+    "Method": "GetById",
+    "RelativePath": "Film/Id/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetMoviesById"
+  },
+  {
+    "ContainingType": "WebAPIApp.Controllers.FilmController",
+    "Method": "GetPopular",
+    "RelativePath": "Film/Popular",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetPopularMovies"
+  },
+  {
+    "ContainingType": "WebAPIApp.Controllers.FilmController",
+    "Method": "Get",
+    "RelativePath": "Film/search/{query}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIApp.Film.Entities.MovieSearchResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetMovies"
+  }
+]

@@ -1,0 +1,4 @@
+@WebAPIApp_HostAddress = http://localhost:5155
+
+GET {{WebAPIApp_HostAddress}}/film/Inception
+Accept: application/json
