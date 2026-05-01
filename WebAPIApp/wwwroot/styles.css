@@ -159,6 +159,7 @@ select {
     margin-top: 12px;
 }
 
+<<<<<<< HEAD
 .pagination span {
     font-size: 14px;
     color: #666;
@@ -176,6 +177,25 @@ select {
 } */
 
 /* @keyframes insaneRainbow {
+=======
+    .pagination span {
+        font-size: 14px;
+        color: #666;
+    }
+
+    .pagination button:disabled {
+        opacity: 0.4;
+        cursor: default;
+    }
+
+body {
+    background: linear-gradient( 90deg, red, orange, yellow, lime, cyan, blue, violet, red );
+    background-size: 1000% 1000%;
+    animation: insaneRainbow 0.5s linear infinite;
+}
+
+@keyframes insaneRainbow {
+>>>>>>> 2d95cfe8621b32dfee93034a5490421caa061d2f
     0% {
         background-position: 0% 50%;
     }
@@ -189,9 +209,15 @@ select {
     transition: transform 0.2s;
 }
 
+<<<<<<< HEAD
 .poster:hover {
     animation: spinCrazy 0.6s linear infinite;
 }
+=======
+    .poster:hover {
+        animation: spinCrazy 0.6s linear infinite;
+    }
+>>>>>>> 2d95cfe8621b32dfee93034a5490421caa061d2f
 
 @keyframes spinCrazy {
     from {
@@ -203,9 +229,13 @@ select {
     }
 }
 
+<<<<<<< HEAD
 h1,
 h2,
 .title {
+=======
+h1, h2, .title {
+>>>>>>> 2d95cfe8621b32dfee93034a5490421caa061d2f
     animation: textPulse 0.1s infinite alternate;
 }
 
@@ -251,17 +281,29 @@ h2,
     transition: transform 0.1s;
 }
 
+<<<<<<< HEAD
 .poster:hover {
     transform: rotate(720deg) scale(3);
 }
+=======
+    .poster:hover {
+        transform: rotate(720deg) scale(3);
+    }
+>>>>>>> 2d95cfe8621b32dfee93034a5490421caa061d2f
 
 .card {
     animation: float 3s infinite ease-in-out;
     border: 2px solid transparent;
     background: linear-gradient(white, white) padding-box, linear-gradient(100deg, red, blue, lime, yellow) border-box;
+<<<<<<< HEAD
 } */
 
 /* @keyframes float {
+=======
+}
+
+@keyframes float {
+>>>>>>> 2d95cfe8621b32dfee93034a5490421caa061d2f
     0% {
         transform: translateY(0px);
     }
@@ -336,4 +378,9 @@ input, select {
 
     100% {
         background-position: 200%;
+<<<<<<< HEAD
     } */
+=======
+    }
+}
+>>>>>>> 2d95cfe8621b32dfee93034a5490421caa061d2f

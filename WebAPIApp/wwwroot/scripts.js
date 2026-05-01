@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿const BASE = '';
+=======
+﻿const BASE = 'https://localhost:7008';
+>>>>>>> 2d95cfe8621b32dfee93034a5490421caa061d2f
 let lastResults = [];
 let popularResults = [];
 let currentPage = 1;
