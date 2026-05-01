@@ -127,6 +127,53 @@
           }
         }
       }
+    },
+    "/Film/Genre/{genreId}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "operationId": "GetMoviesByGenre",
+        "parameters": [
+          {
+            "name": "genreId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Film/Studio/{studio}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "operationId": "GetMoviesByStudio",
+        "parameters": [
+          {
+            "name": "studio",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {

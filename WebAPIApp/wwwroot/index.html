@@ -27,6 +27,31 @@
             <input type="text" id="actorQuery" placeholder="Actor" />
             <button onclick="searchActor()">Find</button>
         </div>
+        <div class="studio-search-row">
+            <input type="text" id="studioQuery" placeholder="Studio name" />
+            <button onclick="searchStudio()">Find</button>
+        </div>
+        <div class="sort-row">
+            <button onclick="sortResults('rating')">⭐ By Rating</button>
+            <button onclick="sortResults('date')">📅 By Date</button>
+        </div>
+
+        <div class="genre-search-row">
+            <select id="genreSelect">
+                <option value="">Select genre</option>
+                <option value="28">Action</option>
+                <option value="35">Comedy</option>
+                <option value="18">Drama</option>
+                <option value="27">Horror</option>
+                <option value="53">Thriller</option>
+                <option value="10749">Romance</option>
+                <option value="16">Animation</option>
+                <option value="878">Science Fiction</option>
+                <option value="99">Documentary</option>
+                <option value="80">Crime</option>
+            </select>
+            <button onclick="searchGenre()">Find</button>
+        </div>
         <div id="results"></div>
     </div>
 

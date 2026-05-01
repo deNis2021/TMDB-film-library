@@ -42,9 +42,9 @@ button {
     font-size: 15px;
 }
 
-    button:hover {
-        background: #f0f0f0;
-    }
+button:hover {
+    background: #f0f0f0;
+}
 
 .card {
     background: white;
@@ -95,3 +95,245 @@ button {
     padding: 2rem;
 }
 
+.country-search-row,
+.id-search-row,
+.actor-search-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.sort-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.country-search-row,
+.id-search-row,
+.actor-search-row,
+.sort-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+a.card {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+}
+
+.genre-search-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 1.5rem;
+}
+
+select {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    background: white;
+}
+
+.studio-search-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.pagination span {
+    font-size: 14px;
+    color: #666;
+}
+
+.pagination button:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+/* body {
+    background: linear-gradient(90deg, red, orange, yellow, lime, cyan, blue, violet, red);
+    background-size: 1000% 1000%;
+    animation: insaneRainbow 0.5s linear infinite;
+} */
+
+/* @keyframes insaneRainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.poster {
+    transition: transform 0.2s;
+}
+
+.poster:hover {
+    animation: spinCrazy 0.6s linear infinite;
+}
+
+@keyframes spinCrazy {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+
+    to {
+        transform: rotate(360deg) scale(3);
+    }
+}
+
+h1,
+h2,
+.title {
+    animation: textPulse 0.1s infinite alternate;
+}
+
+@keyframes textPulse {
+    0% {
+        transform: scale(1);
+        color: #ff00ff;
+    }
+
+    100% {
+        transform: scale(18);
+        color: #00ffff;
+    }
+}
+
+.wrap {
+    animation: shake 0.1s infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 10px);
+    }
+
+    25% {
+        transform: translate(-10px, 2px);
+    }
+
+    50% {
+        transform: translate(2px, -10px);
+    }
+
+    75% {
+        transform: translate(-20px, -2px);
+    }
+
+    100% {
+        transform: translate(1px, -10px);
+    }
+}
+
+.poster {
+    transition: transform 0.1s;
+}
+
+.poster:hover {
+    transform: rotate(720deg) scale(3);
+}
+
+.card {
+    animation: float 3s infinite ease-in-out;
+    border: 2px solid transparent;
+    background: linear-gradient(white, white) padding-box, linear-gradient(100deg, red, blue, lime, yellow) border-box;
+} */
+
+/* @keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-100px) rotate(360deg);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+button {
+    animation: flash 0.1s infinite alternate;
+}
+
+@keyframes flash {
+    0% {
+        background: red;
+        color: yellow;
+    }
+
+    100% {
+        background: lime;
+        color: blue;
+    }
+}
+
+input, select {
+    animation: inputGlow 0,1s infinite alternate;
+}
+
+@keyframes inputGlow {
+    0% {
+        box-shadow: 0 0 5px red;
+    }
+
+    100% {
+        box-shadow: 0 0 20px magenta;
+    }
+}
+
+.overview {
+    animation: waveText 0,1s infinite ease-in-out;
+}
+
+@keyframes waveText {
+    0% {
+        letter-spacing: 0px;
+    }
+
+    50% {
+        letter-spacing: 3px;
+    }
+
+    100% {
+        letter-spacing: 0px;
+    }
+}
+
+.badge {
+    background: linear-gradient(360deg, red, orange, yellow, green, cyan, blue, violet);
+    color: black;
+    animation: rainbowMove 0,1s infinite linear;
+}
+
+@keyframes rainbowMove {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 200%;
+    } */

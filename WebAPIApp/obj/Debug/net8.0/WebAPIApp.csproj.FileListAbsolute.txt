@@ -65,3 +65,4 @@ C:\Users\Artline\Desktop\imdb\WebAPIApp\obj\Debug\net8.0\WebAPIApp.csproj.Up2Dat
 C:\Users\Artline\Desktop\imdb\WebAPIApp\obj\Debug\net8.0\WebAPIApp.genruntimeconfig.cache
 C:\Users\Artline\Desktop\imdb\WebAPIApp\obj\Debug\net8.0\ref\WebAPIApp.dll
 C:\Users\Artline\Desktop\imdb\WebAPIApp\bin\Debug\net8.0\WebAPIApp.staticwebassets.runtime.json
+C:\Users\Artline\Desktop\imdb\WebAPIApp\obj\Debug\net8.0\WebAPIApp.sourcelink.json

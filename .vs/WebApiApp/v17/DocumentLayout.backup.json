@@ -3,40 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Artline\\Desktop\\imdb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\wwwroot\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|solutionrelative:webapiapp\\wwwroot\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\wwwroot\\film.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|solutionrelative:webapiapp\\wwwroot\\film.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\wwwroot\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|solutionrelative:webapiapp\\wwwroot\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\wwwroot\\film.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|solutionrelative:webapiapp\\wwwroot\\film.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\weatherforecast\\helpers\\tmdbapihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|solutionrelative:webapiapp\\weatherforecast\\helpers\\tmdbapihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\weatherforecast\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|solutionrelative:webapiapp\\weatherforecast\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\wwwroot\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|solutionrelative:webapiapp\\wwwroot\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|solutionrelative:webapiapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\weatherforecast\\entities\\moviesearchresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|solutionrelative:webapiapp\\weatherforecast\\entities\\moviesearchresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|solutionrelative:webapiapp\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\weatherforecast\\helpers\\tmdbapihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|solutionrelative:webapiapp\\weatherforecast\\helpers\\tmdbapihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|solutionrelative:webapiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\weatherforecast\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|solutionrelative:webapiapp\\weatherforecast\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\weatherforecast\\entities\\moviesearchresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|solutionrelative:webapiapp\\weatherforecast\\entities\\moviesearchresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\wwwroot\\film.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|solutionrelative:webapiapp\\wwwroot\\film.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -57,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|solutionrelative:webapiapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|c:\\users\\artline\\desktop\\imdb\\webapiapp\\wwwroot\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{5BCFF342-061C-4083-8BFA-42011B23C893}|WebAPIApp\\WebAPIApp.csproj|solutionrelative:webapiapp\\wwwroot\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,89 +70,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "film.js",
-              "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\wwwroot\\film.js",
-              "RelativeDocumentMoniker": "WebAPIApp\\wwwroot\\film.js",
-              "ToolTip": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\wwwroot\\film.js",
-              "RelativeToolTip": "WebAPIApp\\wwwroot\\film.js",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAE4AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-04-10T13:33:48.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "film.html",
-              "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\wwwroot\\film.html",
-              "RelativeDocumentMoniker": "WebAPIApp\\wwwroot\\film.html",
-              "ToolTip": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\wwwroot\\film.html",
-              "RelativeToolTip": "WebAPIApp\\wwwroot\\film.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-04-10T13:33:27.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "scripts.js",
               "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\wwwroot\\scripts.js",
               "RelativeDocumentMoniker": "WebAPIApp\\wwwroot\\scripts.js",
               "ToolTip": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\wwwroot\\scripts.js",
               "RelativeToolTip": "WebAPIApp\\wwwroot\\scripts.js",
-              "ViewState": "AgIAACMAAAAAAAAAAAAewDAAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-04-10T09:50:47.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T09:45:10.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "WebAPIApp\\wwwroot\\index.html",
               "ToolTip": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\wwwroot\\index.html",
               "RelativeToolTip": "WebAPIApp\\wwwroot\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-04-06T17:20:08.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T17:20:08.182Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\Program.cs",
-              "RelativeDocumentMoniker": "WebAPIApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\Program.cs",
-              "RelativeToolTip": "WebAPIApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T16:05:48.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TmdbApiHelper.cs",
               "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\WeatherForecast\\Helpers\\TmdbApiHelper.cs",
               "RelativeDocumentMoniker": "WebAPIApp\\WeatherForecast\\Helpers\\TmdbApiHelper.cs",
               "ToolTip": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\WeatherForecast\\Helpers\\TmdbApiHelper.cs",
               "RelativeToolTip": "WebAPIApp\\WeatherForecast\\Helpers\\TmdbApiHelper.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowEIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAADwv4UAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T16:04:46.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T16:04:46.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MovieSearchResponse.cs",
               "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\WeatherForecast\\Entities\\MovieSearchResponse.cs",
               "RelativeDocumentMoniker": "WebAPIApp\\WeatherForecast\\Entities\\MovieSearchResponse.cs",
@@ -160,25 +118,23 @@
               "RelativeToolTip": "WebAPIApp\\WeatherForecast\\Entities\\MovieSearchResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T16:03:23.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T16:03:23.931Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\WeatherForecast\\Entities\\Movie.cs",
               "RelativeDocumentMoniker": "WebAPIApp\\WeatherForecast\\Entities\\Movie.cs",
               "ToolTip": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\WeatherForecast\\Entities\\Movie.cs",
               "RelativeToolTip": "WebAPIApp\\WeatherForecast\\Entities\\Movie.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAIwHMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAwHMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T16:03:10.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T16:03:10.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "TMDB.http",
               "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\TMDB.http",
               "RelativeDocumentMoniker": "WebAPIApp\\TMDB.http",
@@ -190,20 +146,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "FilmController.cs",
               "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\Controllers\\FilmController.cs",
               "RelativeDocumentMoniker": "WebAPIApp\\Controllers\\FilmController.cs",
               "ToolTip": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\Controllers\\FilmController.cs",
               "RelativeToolTip": "WebAPIApp\\Controllers\\FilmController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwDwAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwF0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T15:56:08.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T15:56:08.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "WebAPIApp.csproj",
               "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\WebAPIApp.csproj",
               "RelativeDocumentMoniker": "WebAPIApp\\WebAPIApp.csproj",
@@ -215,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\appsettings.json",
               "RelativeDocumentMoniker": "WebAPIApp\\appsettings.json",
@@ -227,7 +182,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\wwwroot\\styles.css",
+              "RelativeDocumentMoniker": "WebAPIApp\\wwwroot\\styles.css",
+              "ToolTip": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\wwwroot\\styles.css",
+              "RelativeToolTip": "WebAPIApp\\wwwroot\\styles.css",
+              "ViewState": "AgIAADwBAAAAAAAAAAAcwFABAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-06T17:58:15.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "film.html",
+              "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\wwwroot\\film.html",
+              "RelativeDocumentMoniker": "WebAPIApp\\wwwroot\\film.html",
+              "ToolTip": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\wwwroot\\film.html",
+              "RelativeToolTip": "WebAPIApp\\wwwroot\\film.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-04-10T13:33:27.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPIApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\Program.cs",
+              "RelativeToolTip": "WebAPIApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T16:05:48.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "film.js",
+              "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\wwwroot\\film.js",
+              "RelativeDocumentMoniker": "WebAPIApp\\wwwroot\\film.js",
+              "ToolTip": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\wwwroot\\film.js",
+              "RelativeToolTip": "WebAPIApp\\wwwroot\\film.js",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAE4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-10T13:33:48.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebAPIApp\\Properties\\launchSettings.json",
@@ -239,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "WeatherApiRequest.cs",
               "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\WeatherForecast\\Requests\\WeatherApiRequest.cs",
               "RelativeDocumentMoniker": "WebAPIApp\\WeatherForecast\\Requests\\WeatherApiRequest.cs",
@@ -248,18 +253,6 @@
               "ViewState": "AgIAAAEAAAAAAAAAAAAcwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T16:05:42.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\wwwroot\\styles.css",
-              "RelativeDocumentMoniker": "WebAPIApp\\wwwroot\\styles.css",
-              "ToolTip": "C:\\Users\\Artline\\Desktop\\imdb\\WebAPIApp\\wwwroot\\styles.css",
-              "RelativeToolTip": "WebAPIApp\\wwwroot\\styles.css",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-06T17:58:15.339Z"
             }
           ]
         }

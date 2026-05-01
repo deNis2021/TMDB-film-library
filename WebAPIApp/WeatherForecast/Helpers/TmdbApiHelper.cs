@@ -97,21 +97,68 @@
 
 
         public static async Task<MovieSearchResponse> GetPopularMoviesAsync(string apiKey)
-{
-    if (string.IsNullOrWhiteSpace(apiKey))
-        throw new ArgumentException("API key must be provided.", nameof(apiKey));
+        {
+            if (string.IsNullOrWhiteSpace(apiKey))
+                throw new ArgumentException("API key must be provided.", nameof(apiKey));
 
-    using var httpClient = new HttpClient();
-    var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+            using var httpClient = new HttpClient();
+            var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
-    string uri = $"https://api.themoviedb.org/3/movie/popular?api_key={Uri.EscapeDataString(apiKey)}";
-    var json = await httpClient.GetStringAsync(uri);
-    var result = JsonSerializer.Deserialize<MovieSearchResponse>(json, options);
+            string uri = $"https://api.themoviedb.org/3/movie/popular?api_key={Uri.EscapeDataString(apiKey)}";
+            var json = await httpClient.GetStringAsync(uri);
+            var result = JsonSerializer.Deserialize<MovieSearchResponse>(json, options);
 
-    if (result == null)
-        throw new InvalidOperationException("Failed to deserialize TMDB response.");
+            if (result == null)
+                throw new InvalidOperationException("Failed to deserialize TMDB response.");
 
-    return result;
-}
+            return result;
+        }
+
+        public static async Task<MovieSearchResponse> GetMoviesByGenreAsync(string apiKey, int genreId)
+        {
+            if (string.IsNullOrWhiteSpace(apiKey))
+                throw new ArgumentException("API key must be provided.", nameof(apiKey));
+
+            using var httpClient = new HttpClient();
+            var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+
+            string uri = $"https://api.themoviedb.org/3/discover/movie?api_key={Uri.EscapeDataString(apiKey)}&with_genres={genreId}&sort_by=popularity.desc";
+            var json = await httpClient.GetStringAsync(uri);
+            var result = JsonSerializer.Deserialize<MovieSearchResponse>(json, options);
+
+            if (result == null)
+                throw new InvalidOperationException("Failed to deserialize TMDB response.");
+
+            return result;
+        }
+    
+    public static async Task<MovieSearchResponse> GetMoviesByStudioAsync(string apiKey, string studio)
+        {
+            if (string.IsNullOrWhiteSpace(apiKey))
+                throw new ArgumentException("API key must be provided.", nameof(apiKey));
+
+            using var httpClient = new HttpClient();
+            var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+
+            string companyUri = $"https://api.themoviedb.org/3/search/company?api_key={Uri.EscapeDataString(apiKey)}&query={Uri.EscapeDataString(studio)}";
+            var companyJson = await httpClient.GetStringAsync(companyUri);
+
+            using var doc = JsonDocument.Parse(companyJson);
+            var results = doc.RootElement.GetProperty("results");
+
+            if (results.GetArrayLength() == 0)
+                return new MovieSearchResponse { Results = new List<Movie>() };
+
+            int companyId = results[0].GetProperty("id").GetInt32();
+
+            string movieUri = $"https://api.themoviedb.org/3/discover/movie?api_key={Uri.EscapeDataString(apiKey)}&with_companies={companyId}&sort_by=popularity.desc";
+            var movieJson = await httpClient.GetStringAsync(movieUri);
+            var result = JsonSerializer.Deserialize<MovieSearchResponse>(movieJson, options);
+
+            if (result == null)
+                throw new InvalidOperationException("Failed to deserialize TMDB response.");
+
+            return result;
+        }
     }
 }

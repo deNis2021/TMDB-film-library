@@ -1,4 +1,4 @@
-﻿const BASE = 'https://localhost:7008';
+﻿const BASE = '';
 
 async function loadFilm() {
     const params = new URLSearchParams(window.location.search);

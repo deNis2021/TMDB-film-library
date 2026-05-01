@@ -1,0 +1,34 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tmdb-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: tmdb-api
+  template:
+    metadata:
+      labels:
+        app: tmdb-api
+    spec:
+      containers:
+        - name: tmdb-api
+          image: tmdb-film-library:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
+          env:
+            - name: TmdbApi__ApiKey        # ASP.NET читает __ как :
+              valueFrom:
+                secretKeyRef:
+                  name: tmdb-secret
+                  key: ApiKey
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "100m"
+            limits:
+              memory: "256Mi"
+              cpu: "500m"
