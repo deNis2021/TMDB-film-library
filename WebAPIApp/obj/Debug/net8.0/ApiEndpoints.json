@@ -35,6 +35,23 @@
   },
   {
     "ContainingType": "WebAPIApp.Controllers.FilmController",
+    "Method": "GetByGenre",
+    "RelativePath": "Film/Genre/{genreId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "genreId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetMoviesByGenre"
+  },
+  {
+    "ContainingType": "WebAPIApp.Controllers.FilmController",
     "Method": "GetById",
     "RelativePath": "Film/Id/{Id}",
     "HttpMethod": "GET",
@@ -87,5 +104,22 @@
       }
     ],
     "EndpointName": "GetMovies"
+  },
+  {
+    "ContainingType": "WebAPIApp.Controllers.FilmController",
+    "Method": "GetByStudio",
+    "RelativePath": "Film/Studio/{studio}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studio",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetMoviesByStudio"
   }
 ]

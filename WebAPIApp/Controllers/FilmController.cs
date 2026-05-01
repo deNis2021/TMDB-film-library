@@ -71,5 +71,26 @@ namespace WebAPIApp.Controllers
             var result = await TmdbApiHelper.GetPopularMoviesAsync(apiKey);
             return Ok(result);
         }
+
+        [HttpGet("Genre/{genreId}", Name = "GetMoviesByGenre")]
+        public async Task<IActionResult> GetByGenre(int genreId)
+        {
+            string apiKey = _configuration["TmdbApi:ApiKey"];
+            if (string.IsNullOrWhiteSpace(apiKey))
+                return StatusCode(500, "API key is missing");
+
+            var result = await TmdbApiHelper.GetMoviesByGenreAsync(apiKey, genreId);
+            return Ok(result);
+        }
+
+        [HttpGet("Studio/{studio}", Name = "GetMoviesByStudio")]
+        public async Task<IActionResult> GetByStudio(string studio)
+        {
+            string apiKey = _configuration["TmdbApi:ApiKey"];
+            if (string.IsNullOrWhiteSpace(apiKey))
+                return StatusCode(500, "API key is missing");
+            var result = await TmdbApiHelper.GetMoviesByStudioAsync(apiKey, studio);
+            return Ok(result);
+        }
     }
 }
